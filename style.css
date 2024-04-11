@@ -18,6 +18,11 @@ section {
   box-sizing: inherit;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
 p {
   font-size: 2.4rem;
   font-weight: normal;
@@ -46,6 +51,12 @@ p {
     overflow: hidden;
   }
 
+.flex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -69,6 +80,12 @@ p {
   width: 28rem;
 }
 
+.fotter_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .plusminus {
   display: flex;
   flex-direction: row;
@@ -85,12 +102,6 @@ p {
 
 #plus {
   width: 3.2rem;
-}
-
-.fotter_button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 #in_korzina {
