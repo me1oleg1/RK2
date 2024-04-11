@@ -1,3 +1,30 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    width: 30rem;
+    margin: 0rem auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+
+header {
+  box-sizing: inherit;
+}
+
+section {
+  box-sizing: inherit;
+}
+
+p {
+  font-size: 2.4rem;
+  font-weight: normal;
+  line-height: normal;
+  color: #4A4A4A;
+}
+
 .wrapper {
     max-width: 1170px;
     margin-left: auto;
@@ -19,3 +46,57 @@
     overflow: hidden;
   }
 
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+#logotype {
+  width: 3.6rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#menuimg {
+  width: 3.2rem;
+}
+
+#image {
+  width: 28rem;
+}
+
+.plusminus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#minus {
+  width: 3.2rem;
+}
+
+#number {
+  width: 1.4rem;
+}
+
+#plus {
+  width: 3.2rem;
+}
+
+.fotter_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#in_korzina {
+  width: 28rem;
+}
+
+#podrobee {
+  width: 28rem;
+}

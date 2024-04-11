@@ -5,20 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chirka Oleg 221-325</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <section>
             <h1 class="sr-only">menu section</h1>
-            <img src="image/logo.png" alt="label">
-            <button><img src="image/carbon_menu.png" alt="menu"></button>
-            <a href="#"><img src="image/korzina.png" alt="basket"></a>
+            <div class="logo">
+                <img src="image/logo.png" alt="label" id="logotype">
+            </div>
+            <div class="menu">
+                <button><img src="image/carbon_menu.png" alt="menu" id="menuimg"></button>
+                <a href="#"><img src="image/korzina.png" alt="basket" id="menuimg"></a>
+            </div>
         </section>
     </header>
     <main>
         <section>
             <h2 class="sr-only">oil section</h2>
-            <img src="image/image.png" alt="oil preview">
+            <img src="image/image.png" alt="oil preview" id="image">
             <div>
                 <p>МАСЛО "ДЛЯ САЛАТА"</p>
                 <p>Название говорит само за себя. Это идеальная заправка, которая даже скучной и привычной капусте придаст неповторимый вкус и аромат.</p>
@@ -27,9 +35,16 @@
         <section>
             <h2 class="sr-only">button section</h2>
             <div>
-                <button><img src="image/minus.png" alt="minus"></button>
-                <img src="image/2.png" alt="number">
-                <button><img src="image/plus.png" alt="plus"></button>
+                <button><img src="image/minus.png" alt="minus" id="minus"></button>
+                <img src="image/2.png" alt="number" id="number">
+                <button><img src="image/plus.png" alt="plus" id="plus"></button>
+            </div>
+        </section>
+        <section>
+            <h2 class="sr-only">active section</h2>
+            <div class="fotter_button">
+                <button><img src="image/podrobnee.png" alt="podrobnee" id="in_korzina"></button>
+                <button><img src="image/in korzina.png" alt="korzina" id="podrobee"></button>
             </div>
         </section>
     </main>
