@@ -90,6 +90,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 1rem;
 }
 
 #minus {
@@ -106,8 +107,10 @@ p {
 
 #in_korzina {
   width: 28rem;
+  margin: 1rem;
 }
 
 #podrobee {
   width: 28rem;
+  margin: 1rem;
 }
