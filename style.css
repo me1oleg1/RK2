@@ -70,6 +70,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
 }
 
 #menuimg {
@@ -90,7 +92,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 1rem;
+  margin: 1rem auto;
+  gap: 2rem;
 }
 
 #minus {
@@ -99,6 +102,7 @@ p {
 
 #number {
   width: 1.4rem;
+  height: 3.2rem;
 }
 
 #plus {
@@ -107,10 +111,10 @@ p {
 
 #in_korzina {
   width: 28rem;
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 #podrobee {
   width: 28rem;
-  margin: 1rem;
+  margin: 1rem auto;
 }
