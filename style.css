@@ -89,7 +89,6 @@ p {
 }
 
 .right {
-
 }
 
 #head {
@@ -106,6 +105,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin: 1rem auto;
   gap: 2rem;
 }
@@ -116,7 +116,7 @@ p {
 
 #number {
   width: 1.4rem;
-  height: 3.2rem;
+  height: 2.5rem;
 }
 
 #plus {
@@ -141,15 +141,18 @@ p {
 
 @media screen and (min-width: 1220px) {
 html {
-  width: 120rem;
+  width: 150rem;
 }
 
 p {
   font-size: 2.4rem;
+  width: 75rem;
+  text-align: left;
 }
 
 #head {
-  font-size: 3rem;
+  font-size: 6rem;
+  margin: 1rem;
 }
 
 main {
@@ -159,16 +162,29 @@ main {
 }
 
 #image {
-  width: 50rem;
+  width: 70rem;
 }
 
 .right {
   text-align: left;
+  margin-top: 18rem;
 }
 
 .but-direction {
   flex-direction: row;
   justify-content: space-around;
+}
+
+.fotter_button {
+  width: 70rem;
+}
+
+#logotype {
+  width: 7.6rem;
+}
+
+#menuimg {
+  width: 4rem;
 }
 
 }
