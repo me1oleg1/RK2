@@ -14,6 +14,11 @@ header {
   box-sizing: inherit;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 section {
   box-sizing: inherit;
 }
@@ -28,6 +33,7 @@ p {
   font-weight: normal;
   line-height: normal;
   color: #4A4A4A;
+  text-align: center;
 }
 
 .wrapper {
@@ -82,6 +88,10 @@ p {
   width: 28rem;
 }
 
+#head {
+  font-size: 2.4rem;
+}
+
 .fotter_button {
   display: flex;
   flex-direction: column;
@@ -117,4 +127,24 @@ p {
 #podrobee {
   width: 28rem;
   margin: 1rem auto;
+}
+
+@media screen and (min-width: 1440px) {
+html {
+  width: 120rem;
+}
+
+p {
+  font-size: 2.4rem;
+}
+
+#head {
+  font-size: 125%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 }
